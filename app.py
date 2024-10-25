@@ -7,14 +7,14 @@ gpus = [
         "model": "H100 80GB",
         "memory": "80 GB HBM3 @ 3.35 TBps",
         "interconnect": "NVLink Full Mesh @ 900 GBps",
-        "vws_support": True,
+        "vws_support": False,
         "best_for": ["Large models", "ML Training", "Inference", "HPC", "BERT", "DLRM"]
     },
     {
         "model": "A100 80GB",
         "memory": "80 GB HBM2e @ 1.9 TBps",
         "interconnect": "NVLink Full Mesh @ 600 GBps",
-        "vws_support": True,
+        "vws_support": False,
         "best_for": ["Large models", "ML Training", "Inference", "HPC", "BERT", "DLRM"]
     },
     {
@@ -42,7 +42,7 @@ gpus = [
         "model": "V100",
         "memory": "16 GB HBM2 @ 900 GBps",
         "interconnect": "NVLink Ring @ 300 GBps",
-        "vws_support": True,
+        "vws_support": False,
         "best_for": ["ML Training", "Inference", "HPC"]
     },
     {
